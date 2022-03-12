@@ -5,8 +5,55 @@
     margin: 0;
     padding: 0;
     border: none;
-}
-body { font-family: Fredoka, sans-serif;
-        font-weight: 300;
     
 }
+body { 
+    font-family: Fredoka, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    background-color: #8d8741; 
+}
+
+/* Headings and logo */
+
+#logo {
+    float: left;
+    font-size: 200%;
+    font-family: Fredericka the Great, sans-serif;
+    color: #eae7dc;
+    letter-spacing: 4px;
+    margin-left: 30px;
+  
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;  
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #eae7dc;
+}
+
+.active {
+    border-bottom: 1px solid #eae7dc;
+}
+
