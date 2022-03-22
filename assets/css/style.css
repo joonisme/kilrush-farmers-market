@@ -64,6 +64,13 @@ body {
     border-bottom: 1px solid #eae7dc;
 }
 
+    /* Who we are section */
+    
+    
+    #about-us {
+        color: #afd275;
+    }
+
 /* center of home page  images and tagline*/
 
 .tagline {
@@ -76,15 +83,42 @@ body {
 }
 
 #center-images {
-        width: 33%;
-        margin: 1rem 0;
-        display: inline-block;
-    }
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    padding-left: 100px;
+    padding-inline-end: 100px;
+    border: #dac50d 4px;
+    border-top-style: groove;
+    border-bottom-style: groove;
+}
 
-    /* Who we are section */
 
-    #about-us {
-        color: #afd275;
-    }
 
+
+    /* Times */
+    
+.times {
+    background-color: #afd275;
+    height: 200px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    border: #dac50d;
+}
+
+#times-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
 
