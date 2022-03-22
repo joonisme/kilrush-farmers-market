@@ -67,17 +67,24 @@ body {
     
     
     #about-us {
-        color: #afd275;
-    }
+        justify-content: center;
+        width: 80%;
+        height: 100px;
+        background: #979582;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px;
+     }
 
 /* center of home page  images and tagline*/
 
 .tagline {
     font-style: oblique;
-    color: #afd275;
+    color: #979582;
     font-family: fredoka, sans-serif;
     text-align: center;
-    margin: 100px;
+    margin: 50px;
     font-size: 50px;
 }
 
