@@ -145,8 +145,27 @@ footer {
 }
 
 footer > a {
-    color: beige;
+    color: #fff;
     text-decoration: none;
     padding: 0 15px;
     
+}
+
+/* Products Page*/
+.product-description {
+    text-align: center;
+    font-style: oblique;
+    color: #979582;
+    letter-spacing: 1px;
+}
+
+.product-images {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-block;
+    padding: 30px 80px 30px 80px;
 }
