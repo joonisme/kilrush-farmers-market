@@ -169,3 +169,14 @@ footer > a {
     display: inline-block;
     padding: 30px 80px 30px 80px;
 }
+
+/* Stallholder contact form*/
+
+.form-section {
+        clear: left;
+        background: url("assets/images/picture_from_distance.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        color: #979582;
+    }
