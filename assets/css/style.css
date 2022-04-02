@@ -361,3 +361,17 @@ footer > a {
         align-content: flex-start;
         flex-wrap: wrap;
     }
+
+    #center-images {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding: 40px;
+        align-items: center;
+        padding-left: 100px;
+        padding-inline-end: 100px;
+        border: #dac50d 4px;
+        border-top-style: groove;
+        border-bottom-style: groove;
+        flex-wrap: wrap;
+    }
