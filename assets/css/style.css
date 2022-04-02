@@ -83,7 +83,6 @@ body {
         font-weight: 900;
         color: #fff;
         background-color: #979582;
-        width: 400;
         opacity: .8;
         display: flex;
         width: 800px;
@@ -177,6 +176,7 @@ footer > a {
     font-style: oblique;
     color: #979582;
     letter-spacing: 1px;
+    font-weight: 900;
 }
 
 .product-images {
@@ -191,43 +191,6 @@ footer > a {
 }
 
 /* Stallholder contact form*/
-
-/*
-.text-input {
-        width: 100%;
-        padding: 13px;
-        box-sizing: border-box;
-        color: #979582;
-        border: #afd275 2px;
-        font-weight: 500;
-        font-size: 1.125rem;
-        border-radius: 5px;
-        line-height: 22px;
-        margin-bottom: 15px;
-        font-weight: 500;
-        outline: 0;
-        transition: all 0.3s;
-        }
-
-        */
-
-       /* .text-input {
-            color:#979582;
-            font-weight:500;
-            font-size: 18px;
-            border-radius: 5px;
-            line-height: 22px;
-            background-color: white;
-            border:2px solid #dac50d;
-            transition: all 0.3s;
-            padding: 13px;
-            margin-bottom: 15px;
-            width:100%;
-            box-sizing: border-box;
-            outline:0;
-          }
-       */
-
       .form-section {
         background:#afd275;
         max-width: 420px; 
@@ -299,8 +262,6 @@ footer > a {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us {
-        width: 65%;
-        height: 1200px;
         margin: 0 auto;
    
 }
@@ -324,6 +285,7 @@ footer > a {
         color: #979582;
         letter-spacing: 1px;
         float: left;
+        font-weight: 900;
     }
     
 
