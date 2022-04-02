@@ -350,3 +350,14 @@ footer > a {
         width: auto;
         height: auto;
     }
+    #about-us {
+        background-image: url(../images/website-images/Picture_from_distance.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
