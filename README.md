@@ -1,100 +1,73 @@
-https://codepen.io/ZachSaucier/pen/jOwNvO - form style
 # Kilrush Farmers Market
 
 Kilrush Farmers Market is a site that advertises the Kilrush Farmers Market to attract customers by showcasing the products available, the times and location of the market and also access to their social media links. It also aims to entice stallholders through it's online form. 
 
+Add image responsiveness here
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+*Navigation Bar*
 
-Existing Features
-Navigation Bar
+The navigation bar is on all three pages, by clicking on the Kilrush Farmers Market logo it will bring you back to the homepage. Each page is title includes the name of the page the user is on for ease of navigation should the user have several browser tabs open. 
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+*The landing page image*
 
-The landing page image
+The landing page background image shows a distant image of the market to give the user a visual idea of what the market looks like and where it is. The text overlay gives a brief description of what the purpose of the Farmers Market is. 
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+*Center Images*
+This section gives the user a high level idea of some of the products the farmers market sells to entice the user to come to the market. 
 
-Club Ethos Section
+*Time and location*
+Next we have the time and day of when the Farmers Market is on. The map above the footer gives the exact location of the market. The flow of the section, from the images, down to the times and then the map is designed to attract the user to the market. 
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+*The Footer*
 
-Meetup Times section
+The Footer section provies links to social media to invite the users to access more up to date information on the market. 
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+## Featured Products
 
-The Footer
+The Featured Products page highlights products available at the market with a description of the products and giving names to the stallholders to give it a local community feel.
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+## Become a Stallholder
 
-Gallery
+This page is for members of the public who wish to sell at the market. The form allows them to add their name, phone number, email address. The text area includes a placeholder asking the user to give a descripton of what they would like to sell. 
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+## Possible Additional Features
 
-The Sign Up Page
+The Featured Products page was designed to give an idea of what could be included in here, there is an opporutnity to include more products and stallholders. Visually it might be better to reformat the text so that it is inline with the images in order to give more space and provide a better user experience. 
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+## Testing
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+Testing was carried out on the following browsers - Google Chrome, Firefox and Microsoft Edge. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Validator Testing
 
-Features Left to Implement
-Another feature idea
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+#### HTML
+One error was found when testing, in relation to the width of the map.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+![w3Validator](assets/images/readme-images/w3-validator-error.png)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+After learning how to add a map through the Coders Coffeehouse project, I decided to leave the width as it was. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### CSS
+One error was found when passing through the official (Jigsaw) validator. This is a parse error on line 341 which I was unable to delete. 
 
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+## Deployment
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+This project was depolyed through github pages, the steps are as follows:
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+From the source section drop-down menu, select the Main Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+Any changes pushed to the master branch will take effect on the live project
+
+The live project can be found at https://joonisme.github.io/kilrush-farmers-market/
 
 Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+The form styling was taken from https://codepen.io/ZachSaucier/pen/jOwNvO and styling edited to compliment the sites UI.
+The map dimensions were taken from Coders Coffeehouse and adjusted slightly.
 Media
-The photos used on the home and sign up page are from This Open Source site
+The photos used on the site are taken from the Kilrush Farmers Market facebook page with permission from the Chairperson.
 The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
-Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
 
